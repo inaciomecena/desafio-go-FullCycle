@@ -10,9 +10,12 @@ Lembrando que a Go Lang possui imagens oficiais prontas, vale a pena consultar o
 
 A imagem de nosso projeto Go precisa ter menos de 2MB =)
 
+
 Build
 docker build -t <seu-user>/codeeducation .
+  
 Pull
 docker pull inaciomecena/codeeducation
+  
 Executar o container
 docker run --rm inaciomecena/codeeducation
